@@ -13,7 +13,7 @@ function main() {
   console.log(`Creating new project ${projectName}...`);
 
   // Clone Git repo
-  const projectDir = `${process.cwd()}/${projectName}`;
+  const projectDir = path.join(process.cwd(), projectName);
   execSync(
     `git clone https://github.com/extrawest/ng-clarity-starter.git ${projectDir} --progress`,
     { stdio: 'inherit' }
