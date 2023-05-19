@@ -1,6 +1,7 @@
 #!/usr/bin/env node
 
 const execSync = require('child_process').execSync;
+const path = require('path');
 
 function main() {
   let projectName = process.argv[2];
@@ -19,7 +20,7 @@ function main() {
   );
 
   // Run first-config.js
-  execSync(`node ${projectDir}/first-config.js`, { stdio: 'inherit' });
+  execSync(`node ${path.join(projectDir, 'first-config.js')}`, { stdio: 'inherit' });
   process.exit(0);
 }
 
