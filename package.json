@@ -1,0 +1,10 @@
+{
+  "name": "create-angular-clarity-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/main.js",
+  "bin": "src/main.js",
+  "keywords": [],
+  "author": "Extrawest GmbH",
+  "license": "ISC"
+}
