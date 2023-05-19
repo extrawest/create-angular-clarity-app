@@ -6,5 +6,5 @@
   "bin": "src/main.js",
   "keywords": [],
   "author": "Extrawest GmbH",
-  "license": "ISC"
+  "license": "MIT"
 }
