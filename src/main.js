@@ -20,7 +20,8 @@ function main() {
   );
 
   // Run first-config.js
-  execSync(`node ${path.join(projectDir, 'first-config.js')}`, { stdio: 'inherit' });
+  process.chdir(projectDir);
+  execSync(`npm start`, { stdio: 'inherit' });
   process.exit(0);
 }
 
