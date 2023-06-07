@@ -1,6 +1,6 @@
 {
-  "name": "create-angular-clarity-app",
-  "version": "1.0.3",
+  "name": "@extrawest/create-angular-clarity-app",
+  "version": "1.0.0",
   "description": "",
   "main": "src/main.js",
   "bin": "src/main.js",
