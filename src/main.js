@@ -21,6 +21,7 @@ function main() {
 
   // Run first-config.js
   process.chdir(projectDir);
+  execSync(`npm install`, { stdio: 'inherit' });
   execSync(`npm start`, { stdio: 'inherit' });
   process.exit(0);
 }
