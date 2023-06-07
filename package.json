@@ -1,10 +1,14 @@
 {
   "name": "@extrawest/create-angular-clarity-app",
-  "version": "1.0.0",
-  "description": "",
+  "version": "1.0.1",
+  "description": "Angular starter with Clarity design system by Extrawest",
   "main": "src/main.js",
   "bin": "src/main.js",
-  "keywords": [],
+  "keywords": ["angular", "clarity", "firebase", "google analytics"],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/extrawest/create-angular-clarity-app.git"
+  },
   "author": "Extrawest GmbH",
   "license": "MIT"
 }
